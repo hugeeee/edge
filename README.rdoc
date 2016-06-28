@@ -3,26 +3,30 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+This is an app aimed to identify edge against a bookie for horse racing
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+event = race
+bet = horse
+odd = price
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+data model...to get me started cuz i'm lazy :/
+
+	event has many bets
+	bet has many odds and belongs to an event
+	an odd belongs to a bet
+
+
+	event attributes:
+		name = string
+		time = time
+		venue = string
+
+	bet attributes:
+		name of horse = string
+		...anything else?
+
+	odd attributes:
+		price = decimal
+		places = int
+		fractions of the odds = decimal

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price: 1.5
+  each_way_places: 1
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+two:
+  price: 1.5
+  each_way_places: 1
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+bad_odd:
+  price: SP
+  each_way_places: 1
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

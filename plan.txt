@@ -1,0 +1,9 @@
+models
+
+event
+
+bet
+
+	bookie
+	odds
+	each way term

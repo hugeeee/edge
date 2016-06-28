@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Paddies
+  short_name: PP
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+two:
+  name: Bet365
+  short_name: bet
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
